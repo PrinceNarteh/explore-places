@@ -2,10 +2,11 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
 import { RootTabParamList } from "../../types/navigation";
 import { Ionicons, FontAwesome } from "@expo/vector-icons";
-import Home from "../Screens/Home";
-import Search from "../Screens/Search";
-import Profile from "../Screens/Profile";
-import Fav from "../Screens/Fav";
+
+import Home from "../screens/Home";
+import Search from "../screens/Search";
+import Fav from "../screens/Fav";
+import Profile from "../screens/Profile";
 
 const Tab = createBottomTabNavigator<RootTabParamList>();
 
